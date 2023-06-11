@@ -1,5 +1,5 @@
 # Neural-Dependency-Parser
-This is an implementation of Transition Based Dependency Parser Using Neural Networks. This implementation is based on one of the assignments from [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
+This is an implementation of Transition Based Dependency Parser Using Neural Networks. This implementation is based on one of the assignments from [CS224N: Natural Language Processing with Deep Learning.](https://web.stanford.edu/class/cs224n/)
 
 A dependency parser analyzes the grammatical structure of a sentence, establishing relationships between head words, and words which modify those heads. There are multiple types of dependency parsers, including transition-based parsers, graph-based parsers, and feature-based parsers. Our implementation will be a transition-based parser, which incrementally builds up a parse one step at a time. At every step it maintains a partial parse, which is represented as follows:
 - A stack of words that are currently being processed.
@@ -25,5 +25,5 @@ A neural network predicts which of the 3 transitions (SHIFT, LEFT-ARC or RIGHT-A
 
 **parser_transitions** : For implementing transitions to the parsers.
 
-**run.py** : For Training and Testing Model
+**run.py** : For training and testing model.
 
